@@ -1,0 +1,30 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "name": "huypa/orm",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["relevant","tags","go","here"],
+    "homepage": "https://yourcompany.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huy phan",
+            "email": "huy.pa@neo-lab.vn",
+            "homepage": "http://abc.be",
+            "role": "Developer"
+        }
+    ]
+    
+}
